@@ -1,2 +1,1 @@
-# estudos.py
-Estudos em Python
+# Estudos em Python
