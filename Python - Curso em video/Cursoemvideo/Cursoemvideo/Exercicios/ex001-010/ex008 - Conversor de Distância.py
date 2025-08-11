@@ -1,0 +1,18 @@
+# - DESAFIO 008: ESCREVA UM PROGRAMA QUE LEIA UM VALOR EM METROS E O EXIBA
+# CONVERTIDO EM CENTIMETROS E MILÍMETROS -
+n1=float(input('ME INFORME UMA MEDIDA EM METROS PARA SABER O QUANTO ESTA EQUIVALE EM CENTÍMETROS E MILIMETROS: '))
+km=n1/1000
+h=n1/100
+dca=n1/10
+m=n1
+dc=n1*10
+cm=n1*100
+mm=n1*1000
+print(f'A MEDIDA DE {n1} METROS EQUIVALE À:\n'
+      f'{km} KILOMETROS!\n'
+      f'{h} HECTÔMETROS!\n'
+      f'{dca} DECÂMETROS!\n'
+      f'{dc:.0f} DECÍMETROS!\n('
+      f'{cm:.0f} CENTIMETROS!\n'
+      f'E\n'
+      f'{mm:.0f} MILÍMETROS!')
