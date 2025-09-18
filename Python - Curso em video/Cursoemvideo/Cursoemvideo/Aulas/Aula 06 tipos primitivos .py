@@ -1,8 +1,8 @@
 #ANTES DE RODAR O PROGRAMA TEM QUE COLOCAR AS "#" NOS CODIGOS PRA NÃO CAGAR TUDO'
-n1=input('Digite o primeiro número')
-n2=input('Digite o segundo número')
-s=n1+n2
-print('a soma vale',s)
+#n1=input('Digite o primeiro número')
+#n2=input('Digite o segundo número')
+#s=n1+n2
+#print('a soma vale',s)
 
 #R: a soma vale 'n1n2'
 #----------------------------------------------------------------------------------
@@ -12,8 +12,8 @@ print('a soma vale',s)
 #O que tem que ser colocado então é o tipo primitivo int! Assim:
 #---------------------------------------------------------------------------------
 
-n1=int(input('Digite o primeiro número'))
-n2=int(input('Digite o segundo número'))
+n1=int(input('Digite o primeiro número: '))
+n2=int(input('Digite o segundo número: '))
 s=n1+n2
 print(f'A soma vale {s}')
 
@@ -36,5 +36,5 @@ print(f'A soma vale {s}')
 #EX: n1=input ('digite um numero')
 #print(type(n1))
 
-n1=input('Você quer saber a minha class?')
+n1=input('Class do numero: ')
 print(type(n1))
