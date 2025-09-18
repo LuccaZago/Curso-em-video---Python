@@ -9,7 +9,7 @@ print('APLHANUM:',x.isalnum())
 print('LOWER:',x.islower())
 print('DECIMAL:',x.isdecimal())
 print('LOWER:',x.islower())
-print('ELE UM SUPPER?:',x.isupper())
+print('ELE É UM SUPPER?:',x.isupper())
 print('SPACE:',x.isspace())
 print('DIGIT:',x.isdigit())
 print('PRINTABLE:',x.isprintable())
@@ -17,4 +17,5 @@ print('ESTÁ CAPITALIZADO?', x.istitle())
 
 # "x" NESTE CASO É UM OBJETO (POSSUI CARACTERISTICAS E REALIZA FUNCIONALIDADES)
 # TODOS ESSES COM () DEPOIS DO NOME SÃO CHAMADOS DE MÉTODOS (TODO STRING TEM MÉTODOS)
+
 
